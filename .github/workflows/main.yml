@@ -77,3 +77,4 @@ jobs:
         resourceGroupName: ${{ env.AZURE_RESOURCE_GROUP_1 }}
         template: ./frontdoor_template.json  # Set this to the location of your template file
         parameters: ./frontdoor_parameters.json # Set this to the location of your parameters file
+        #end
